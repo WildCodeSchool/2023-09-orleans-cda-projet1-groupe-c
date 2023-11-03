@@ -65,7 +65,7 @@ export default function CardDetailCharacter({ character }) {
                   alt=""
                   className="absolute z-0"
                 />
-                <div className="z-20 mt-3 flex items-center justify-center space-x-8 transition-all group-hover:[transform:rotateY(180deg)]">
+                <div className="z-20 mt-3 flex items-center justify-center space-x-8 [backface-visibility:hidden] group-hover:[transform:rotateY(180deg)]">
                   <img
                     src={image}
                     alt={name}
